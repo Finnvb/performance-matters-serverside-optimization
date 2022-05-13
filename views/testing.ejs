@@ -1,0 +1,15 @@
+<%- include('./partials/head') %>
+
+
+<h1> <%= title %> </h1>
+
+
+    <p>
+    <% quotes.forEach(quote => { %>
+        <%- quote.text %>
+       <% }) %>
+    </p>
+
+
+
+<%- include('./partials/foot') %>
