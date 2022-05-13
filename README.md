@@ -1,9 +1,11 @@
 
 # Reflect for Effect 
-Geef je project een titel en schrijf in één zin wat het is.
+Verbeter de performance van Reflect for Effect uit sprint 9.
 
 ## Serverside Performance Optimalisatie
 Beschrijf de website die je hebt geoptimaliseerd, voeg screenshots van de performance audit voor en na het uitvoeren en beschrijf de verbeterde performance. Met andere woorden, welke winst heb je behaald door dit allemaal te doen! Voeg de url en een screenshot van de geoptimaliseerde website toe. 
+
+Ik heb de website van Reflect for Effect geoptimaliseerd. Omdat het niet 100% af is, is het geen groot project om te optimaliseren. Vandaar ook de score van 100. Wel kan ik de bestandsgrootte
 
 ### Voor
 ![afbeelding](https://user-images.githubusercontent.com/26089533/165938474-84c8b0f9-f266-4b42-b8c6-b3cb5682ad43.png)
@@ -16,6 +18,8 @@ Beschrijf de website die je hebt geoptimaliseerd, voeg screenshots van de perfor
 ![afbeelding](https://user-images.githubusercontent.com/26089533/168280438-b7d3607b-8a30-4807-92b3-20a9b26c2f5e.png)
 
 ![afbeelding](https://user-images.githubusercontent.com/26089533/168280597-67f4f89c-9f3c-4863-9973-7bd437863030.png)
+
+![afbeelding](https://user-images.githubusercontent.com/26089533/168280797-e18694ac-0879-45d3-9e17-e0e45c482a89.png)
 
 
 
