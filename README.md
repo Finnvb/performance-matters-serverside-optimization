@@ -15,6 +15,9 @@ Beschrijf de website die je hebt geoptimaliseerd, voeg screenshots van de perfor
 ### Na
 ![afbeelding](https://user-images.githubusercontent.com/26089533/168280438-b7d3607b-8a30-4807-92b3-20a9b26c2f5e.png)
 
+![afbeelding](https://user-images.githubusercontent.com/26089533/168280597-67f4f89c-9f3c-4863-9973-7bd437863030.png)
+
+
 
 ### Minifying
 
