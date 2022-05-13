@@ -22,7 +22,7 @@ Ik heb styles.css en loginStyles.css geminified. Om dit te doen heb ik gebruik g
 ### Code splitting
 Beschrijf welke front-end javascript bestanden je gesplit hebt en waarom je dat gedaan hebt. Schrijf vanuit het idee van daadwerkelijk gebruikte code per pagina.
 
-
+Op de loginpage en formpage werd app.js ook ingeladen terwijl dit bestand niet werd gebruikt op de login- en formpage. De verwijzing naar dit bestand in login.ejs en form.ejs heb ik verwijderd. app.js wordt alleen op index.ejs gebruikt.
 
 ### Caching
 Beschrijf welke caching opties je gekozen hebt en waarom je dat op deze manier doet.
