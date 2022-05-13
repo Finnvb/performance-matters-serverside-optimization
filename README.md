@@ -15,20 +15,20 @@ Voor
 
 
 ### Minifying
-Beschrijf welke bestanden je _minified_ hebt en waarom je dat gedaan hebt. Als je er bewust voor kiest bepaalde bestanden niet te minify-en dan beschrijf je ook waarom je dat niet gedaan hebt.
 
 Ik heb styles.css en loginStyles.css geminified. Om dit te doen heb ik gebruik gemaakt van PostCSS. Ik heb hiervoor een scriptje geschreven wat ervoor zorgt dat alle regels CSS achtereenvolgens op één string worden geschreven. Dit zorgt voor CSS bestanden met minder bytes. Dit scheelt toch 1.8 KB aan data.
 
 ### Code splitting
-Beschrijf welke front-end javascript bestanden je gesplit hebt en waarom je dat gedaan hebt. Schrijf vanuit het idee van daadwerkelijk gebruikte code per pagina.
 
 Op de loginpage en formpage werd app.js ook ingeladen terwijl dit bestand niet werd gebruikt op de login- en formpage. De verwijzing naar dit bestand in login.ejs en form.ejs heb ik verwijderd. app.js wordt alleen op index.ejs gebruikt.
 
 ### Caching
-Beschrijf welke caching opties je gekozen hebt en waarom je dat op deze manier doet.
+
+Ik heb de Cache-control header gebruikt zodat er om de 5 minuten een request kan worden gedaan naar de server. Dit zorgt ervoor dat er niet constant requests worden gemaakt naar de server. Gebruikers laden de bestanden vanuit hun cache en de cache wordt elke 5 minuten ververst. Dit zorgt voor minder verkeer richting de server. 
 
 ### Compressie
-Beschrijf hoe je compressie hebt ingezet en waarom je die keuze hebt gemaakt.
+
+Voor de compressie heb ik de express compression package gebruikt. Dit verkleint de bestanden op een bepaald manier en scheelt ook een aantal bytes.
 
 ## Bronnen
 Beschrijf de door jou gebruikte bronnen om bovenstaande stappen uit te voeren.
