@@ -31,7 +31,10 @@ Ik heb de Cache-control header gebruikt zodat er om de 5 minuten een request kan
 Voor de compressie heb ik de express compression package gebruikt. Dit verkleint de bestanden op een bepaald manier en scheelt ook een aantal bytes.
 
 ## Bronnen
-Beschrijf de door jou gebruikte bronnen om bovenstaande stappen uit te voeren.
+- [Minify met PostCSS](https://benborgers.com/posts/node-minify-css)
+- [Cache headers in Express](https://regbrain.com/article/cache-headers-express-js)
+- [Compressie met express](http://expressjs.com/en/resources/middleware/compression.html)
+
 
 ## Licentie
 
