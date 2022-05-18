@@ -2,40 +2,39 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form</title>
-    <link rel="stylesheet" href="style.min.css">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+  <link rel="stylesheet" href="style.min.css">
 </head>
 
 <section id="formContainer">
-<form action="/competentie" method="POST" id="APIForm" >
-  <h1>Post competentie</h1>
-  <label for="naam">Competentie:</label>
-  <input type="text" placeholder="competentieNaam" name="naam">
-  <button type="submit">Submit</button>
-</form>
+  <form action="/competentie" method="POST" id="APIForm">
+    <h1>Post competentie</h1>
+    <label for="naam">Competentie:</label>
+    <input type="text" placeholder="competentieNaam" name="naam">
+    <button type="submit">Submit</button>
+  </form>
 
-<form action="/vragenlijst" method="POST" id="APIForm">
-  <h1>Post vragenlijst</h1>
-  <label for="naam">vragenlijst:</label>
-  <input type="text" placeholder="vragenlijstNaam" name="naam">
-  <button type="submit">Submit</button>
-</form>
+  <form action="/vragenlijst" method="POST" id="APIForm">
+    <h1>Post vragenlijst</h1>
+    <label for="naam">vragenlijst:</label>
+    <input type="text" placeholder="vragenlijstNaam" name="naam">
+    <button type="submit">Submit</button>
+  </form>
 
-<form action="/vraag" method="POST" id="APIForm">
-  <h1>Post vraag</h1>
-  <label for="vraag">vragenlijstId:</label>
-  <input type="text" placeholder="vragenlijstId" name="vragenlijstId">
-  <label for="vraag">competentieId:</label>
-  <input type="text" placeholder="competentieId" name="competentieId">
-  <label for="vraag">vraag:</label>
-  <input type="text" placeholder="vraagNaam" name="vraag">
-  <button type="submit">Submit</button>
-</form>
+  <form action="/vraag" method="POST" id="APIForm">
+    <h1>Post vraag</h1>
+    <label for="vraag">vragenlijstId:</label>
+    <input type="text" placeholder="vragenlijstId" name="vragenlijstId">
+    <label for="vraag">competentieId:</label>
+    <input type="text" placeholder="competentieId" name="competentieId">
+    <label for="vraag">vraag:</label>
+    <input type="text" placeholder="vraagNaam" name="vraag">
+    <button type="submit">Submit</button>
+  </form>
 </section>
 
 </body>
+
 </html>
