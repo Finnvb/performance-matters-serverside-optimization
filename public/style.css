@@ -12,7 +12,6 @@
 :root {
     --darkBlue: #152853;
     --lightBlue: #4daae5;
-
 }
 
 
@@ -23,11 +22,9 @@
     padding: 2rem 0rem;
     margin-left: 10rem;
     margin-right: 10rem;
-
 }
 
 .navContainer li {
-
     padding-right: 2rem;
 }
 
@@ -93,7 +90,6 @@ ul {
 .introSection ul {
     display: flex;
     list-style: none;
-
 }
 
 .introSectionLinks {
@@ -186,7 +182,6 @@ ul {
     transition: .4s ease-in-out 0s;
     opacity: 0;
     visibility: hidden;
-
 }
 
 .radio-item [type="radio"]:checked~label {
@@ -199,7 +194,6 @@ ul {
     visibility: visible;
     transform: scale(1);
 }
-
 
 footer {
     background-color: var(--darkBlue);
@@ -220,7 +214,6 @@ footer p {
     flex-direction: row;
     justify-content: space-evenly;
     margin-top: 5rem;
-
 }
 
 #APIForm {
@@ -264,7 +257,6 @@ footer p {
 }
 
 .grafiek1Section {
-
     margin: 2rem 0 2rem 10rem ;
     display: none;
 }
@@ -286,7 +278,6 @@ footer p {
     display: flex;
     flex-wrap: wrap;
     width: 600px;
-   
 }
 
 .grafiek1Section{

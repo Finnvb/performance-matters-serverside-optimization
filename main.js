@@ -5,14 +5,17 @@ const fetch = (...args) => import('node-fetch').then(({
   default: fetch
 }) => fetch(...args))
 const URL = 'https://jeugdzorg.api.fdnd.nl/'
-// nodemon index.js //
-console.log(URL)
+
+
+
 //parses user data
 const bodyParser = require('body-parser')
 const urlencodedParser = bodyParser.urlencoded({
   extended: false
 })
 // app.use(bodyParser.urlencoded({extended: true}))
+
+console.log(URL)
 
 // Serve public files
 app.use(express.static('public'))
@@ -71,7 +74,7 @@ app.get('/', async (req, res) => {
 
  app.get('/login', async (req, res) => {
   vragenlijst = await fetchJson(`${URL}v1/vragenlijst`).then(json => json.data)
- vraag = await fetchJson(`${URL}v1/vraag`).then(json => json.data)
+  vraag = await fetchJson(`${URL}v1/vraag`).then(json => json.data)
   competentie = await fetchJson(`${URL}v1/competentie`).then(json => json.data)
    console.log(vragenlijst)
    console.log(vraag[2])
@@ -174,7 +177,7 @@ app.post('/vraag', urlencodedParser, (req, res) => {
 //     })
 //   })
 // })
-
+// nodemon index.js //
 app.set('port', process.env.PORT || 1337)
 
 const server = app.listen(app.get('port'), () => {
