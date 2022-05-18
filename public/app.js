@@ -5,9 +5,7 @@ let vragenlijst = document.querySelector('.competentieVragenlijst');
 let grafiek1Section = document.querySelector('.grafiek1Section');
 
 
-
 toggle();
-
 
 function toggle(){
 

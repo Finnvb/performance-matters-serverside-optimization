@@ -21,7 +21,6 @@ fs.readFile(cssFileMain, async (err, data) => {
   })
 })
 
-
 fs.readFile(cssFileLogin, async (err, data) => {
   const output = await postcss([cssnano, autoprefixer]).process(data);
   const minifiedCss = output.css;

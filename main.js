@@ -7,7 +7,6 @@ const fetch = (...args) => import('node-fetch').then(({
 const URL = 'https://jeugdzorg.api.fdnd.nl/'
 
 
-
 //parses user data
 const bodyParser = require('body-parser')
 const urlencodedParser = bodyParser.urlencoded({
@@ -67,7 +66,6 @@ app.get('/', async (req, res) => {
      vragenlijst,
      competentie,
      vraag
- 
    }
  })
 
@@ -83,8 +81,7 @@ app.get('/', async (req, res) => {
  
      vragenlijst,
      competentie,
-     vraag
- 
+     vraag 
    }
  })
 
@@ -106,10 +103,7 @@ app.post('/competentie', urlencodedParser, (req, res) => {
       naam: 'req.body'
     })
   })
-
 })
-
-
 
 
 app.post('/vragenlijst', urlencodedParser, (req, res) => {
@@ -129,7 +123,6 @@ app.post('/vragenlijst', urlencodedParser, (req, res) => {
 })
 
 
-
 app.post('/vraag', urlencodedParser, (req, res) => {
   // console.log(req.body);
   const postData = {
@@ -146,13 +139,9 @@ app.post('/vraag', urlencodedParser, (req, res) => {
       vragenlijstId: 'req.body',
       competentieId: 'req.body',
       vraag: 'req.body'
-
     })
   })
 })
-
-
-
 
 
 
@@ -177,7 +166,9 @@ app.post('/vraag', urlencodedParser, (req, res) => {
 //     })
 //   })
 // })
+
 // nodemon index.js //
+
 app.set('port', process.env.PORT || 1337)
 
 const server = app.listen(app.get('port'), () => {
@@ -190,7 +181,6 @@ const server = app.listen(app.get('port'), () => {
  * @param {*} url the api endpoint to address
  * @returns the json response from the api endpoint
  */
-
 
 
 async function fetchJson(url, data = {}) {
